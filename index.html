@@ -1,0 +1,92 @@
+<html ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>ScrollableContainer</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="app.css">
+  <script src="./angular.js"></script>
+  <script src="./app.js"></script>
+  <script src="./components/scrollableContainer.component.js"></script>
+</head>
+<body>
+
+<!-- With an AngularJS component -->
+<scrollable-container>
+  <div class="info">
+    <div>Itay</div>
+    <div>22</div>
+    <div>Male</div>
+  </div>
+  <div class="info">
+    <div>Sigal</div>
+    <div>49</div>
+    <div>Female</div>
+  </div>
+  <div class="info">
+    <div>Sendi</div>
+    <div>{{ 5 * 7}}</div>
+    <div>Female (Dog)</div>
+  </div>
+</scrollable-container>
+
+<!-- Good Example -->
+
+  <div class="table">
+    <div class="left-side">
+      <div class="headers">
+        <h5>Name</h5>
+        <h5>Age</h5>
+        <h5>Gender</h5>
+      </div>
+    </div>
+    <!--<div class="right-side">-->
+      <div class="right-side scrollable-container">
+        <div class="info-container">
+          <div class="info">
+            <div>Itay</div>
+            <div>22</div>
+            <div>Male</div>
+          </div>
+          <div class="info">
+            <div>Sigal</div>
+            <div>49</div>
+            <div>Female</div>
+          </div>
+          <div class="info">
+            <div>Sendi</div>
+            <div>{{ 5 * 7}}</div>
+            <div>Female (Dog)</div>
+          </div>
+          <div class="info">
+            <div class="nahum">Nahum Shemesh Ha Gever Gever La la La Lorem ipsum</div>
+            <div>{{ 5 * 7}}</div>
+            <div>Female (Dog)</div>
+          </div>
+          <div class="info">
+            <div>Sendi</div>
+            <div>{{ 5 * 7}}</div>
+            <div>Female (Dog)</div>
+          </div>
+          <div class="info">
+            <div>Sendi</div>
+            <div>{{ 5 * 7}}</div>
+            <div>Female (Dog)</div>
+          </div>
+          <div class="info">
+            <div>Sendi</div>
+            <div>{{ 5 * 7}}</div>
+            <div>Female (Dog)</div>
+          </div>
+          <div class="info">
+            <div>Sendi</div>
+            <div>{{ 5 * 7}}</div>
+            <div>Female (Dog)</div>
+          </div>
+        </div>
+      </div>
+    <!--</div>-->
+  </div>
+</body>
+</html>

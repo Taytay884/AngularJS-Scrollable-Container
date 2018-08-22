@@ -1,0 +1,75 @@
+/* app css stylesheet */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+  width: 70%;
+  margin: 30px auto;
+  border: 1px solid red;
+}
+
+.table {
+  display: flex;
+  width: 100%;
+}
+
+.left-side {
+  padding: 5px;
+  width: 30%;
+  border: 1px solid green;
+  border-right: 1px solid #ddd;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+.headers h5 {
+  margin-bottom: 10px;
+}
+
+.headers h5:last-of-type {
+  margin-bottom: 0px;
+}
+
+.right-side {
+  padding: 5px;
+  border: 1px solid blue;
+  width: calc(70% - 20px);
+}
+
+.nahum {
+  color: red;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Scrollable Container */
+
+.scrollable-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.info-container {
+  display: flex;
+}
+
+.info {
+  margin-right: 10%;
+  width: 250px;
+  flex-shrink: 0;
+}
+
+.info div {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* End Scrollable Container*/
