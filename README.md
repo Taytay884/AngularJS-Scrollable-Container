@@ -5,7 +5,7 @@ I have made an easy scrollable container.
 It mainly CSS and JS.
 I made a good example. Hope it will help someone.
 
-### CodePen
+### CodePen - No AngularJS
 **https://codepen.io/ItayBS/pen/bxdqBK**
 
 Enjoy, Itay.
